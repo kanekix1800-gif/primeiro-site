@@ -1,0 +1,31 @@
+
+       @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+          margin: 0;
+          padding: 0;
+          border: 0;
+
+        }
+        body{
+            background-color:black
+        }
+        header {
+            padding: 32px;
+            border-bottom: 1px sandybrown
+             
+        }
+        header div {
+            text-align: center; /* alinhamento no meio do header*/
+        }
+        header div a {
+            color:white; /* a cor do texto*/
+            font-size: 20px; /* tamanho da fonte*/
+            line-height: 30px; /* espacamento da linha de texto*/
+            margin: 0 16px; /*espacamento entre os texto*/
+            text-decoration: none; /*retirar decoracao do texto*/
+        }
+        header div a:hover { /*selecao do modo quando o mouse passar por cima ''hover''*/
+        color: green; /* muda rpra cor verde*/
+        transition: color 700ms /* e fazer uma transicao de que a cor dure 700ms*/
+        }
+  
