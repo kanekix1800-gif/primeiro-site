@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro -site top</title>
+</head>
+
+ <html>
+    <header>
+        <div class="links">
+            <a href="https://github.com/kanekix1800-gif" target="_blank">Github</a>
+            <a href="https://www.instagram.com/yankekw/" target="_blank">Instagram</a>
+           
+        </div>
+        <div id="box">
+
+            <img src=" https://i.pinimg.com/736x/22/1a/da/221ada2b52d13dcc65999b2cda540aae.jpg" alt="imagem de perfil"/>
+            <h1> pedro yan goat borges</h1>
+            <h2>aluno-programador-colegio CEV</h2>
+            <p> aluno do CEV, premiado por diversas universidades por ser mt bom, futuro da programacao brasileira</p>
+        </div>
+    </header>
+
+
+</html>
