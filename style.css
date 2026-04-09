@@ -1,0 +1,103 @@
+
+       @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+          margin: 0;
+          padding: 0;
+          border: 0;
+
+        }
+        body{
+            background-color:rgb(128, 122, 122)
+        }
+        header {
+            padding: 32px;
+            border-bottom: 1px sandybrown
+             
+        }
+        header div {
+            text-align: center; /* alinhamento no meio do header*/
+        }
+        header div a {
+            color:white; /* a cor do texto*/
+            font-size: 20px; /* tamanho da fonte*/
+            line-height: 30px; /* espacamento da linha de texto*/
+            margin: 0 16px; /*espacamento entre os texto*/
+            text-decoration: none; /*retirar decoracao do texto*/
+        }
+        header div a:hover { /*selecao do modo quando o mouse passar por cima ''hover''*/
+        color: green; /* muda rpra cor verde*/
+        transition: color 700ms /* e fazer uma transicao de que a cor dure 700ms*/
+        }
+        #box {
+        text-align: center; /*alinhamento no meio do body*/ 
+        padding: 32px; /*distancia dos outros elementos*/
+        }
+        #box img{
+         border-radius: 50%; /*deixar a imagem redonda*/
+         border: 5px solid  #ffffff; /*cor pra borda da imagem*/
+     
+         margin-bottom: 32px; /*distancia da imagem para os outros elementos*/
+        }
+        #box h1 {
+         font-size:42px;
+         line-height:52px;
+         font-weight: bold;
+        }
+        #box h2 {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: normal;
+        margin-top: 8px;
+        opacity: 0.8; /*deixar o texto um pouco transparente*/
+        }
+        #box p {
+            max-width: 500px;
+            margin: 32px auto; /*centralizar o paragrafo*/
+            font-size: 24px;
+            line-height: 34px;
+        }   
+        :root{
+            --subcor: #6e0342; 
+        }
+        header {
+            padding: 32px; 
+            border-bottom: 3px solid #6e0342;
+            background-color: rgba(110, 3, 66, 0.1);
+        }
+        header {
+            padding: 32px;
+            border-bottom: 3px solid var(--subcor);
+            background-color: rgba(8, 43, 83, 0.479);
+        }
+        header div {
+            text-align:center ;
+        }
+        .links a {
+            color: white;
+            font-size: 20px;
+            line-height: 30px;
+            margin: 0 16px;
+            text-decoration: none;
+        }
+        .links a:hover {
+            color: green;
+            transition: color 700ms;
+            font-size: 23px;
+        }
+        #box h1 {
+            padding: 4px;
+        }
+        #box h2{
+            padding: 10px;
+        }
+        #box p:hover {
+            font-size: 23px;
+        }
+        #box a {
+            color: var(--subcor);
+            transition: 600ms;
+        }
+
+        
+
+        
